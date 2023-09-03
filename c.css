@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding:0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color: black;
+height: 2200px;
+}
+
+.list
+{
+display:flex;
+box-sizing: border-box;
+box-sizing: content-box;
+align-items: center;
+/* justify-content: center; */
+justify-content: space-around;
+margin: 18px;
+padding: 20px;
+color:#D7D7d7;
+font-size: medium;
+font-family: 'Marck Script', cursive;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Roboto Mono', monospace;
+background-color:#1C1C1C;
+border-radius: 200px;
+width: 550px;
+height: 30px;
+position: relative;
+left: 200px;
+top: 10px;
+}
+.join-button{
+position: relative;
+left:900px;
+bottom:70px;
+color: white;
+width: 100px;
+height: 50px;
+font-size: medium;
+border-radius: 40px;
+background-color: #E75F00;
+border-style: hidden;
+}
+
+.icons{
+    position: relative;
+    float: right;
+    bottom: 70px;
+    right: 200px;
+}
+
+.main-container-img
+{
+ position: absolute;
+    left: 100px;
+   opacity: 1.0;
+
+}
+
+.text1{
+    color: whitesmoke;
+    font-size:35px;
+    font-family: 'Roboto Mono';
+font-weight: 50px;
+position: absolute;
+top: 190px;
+left: 180px;
+}
+.text2{
+    color: #E75F00;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 290px;
+    left: 180px;
+}
+.text3{
+    color: #a6a6a6;
+    font-family: 'Roboto Mono', monospace;
+    font-size:20px;
+    position: absolute;
+    top: 410px;
+    left: 180px;
+    
+}
+.paragraph{
+    color: #D7D7d7;
+    position: absolute;
+   left: 850px;
+   top:220px;
+   font-family: 'Marck Script', cursive;
+   font-family: 'Noto Sans', sans-serif;
+   font-family: 'Noto Sans JP', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto Mono', monospace;
+    font-size: larger;
+    font-weight: 300;
+}
+.searchbar{
+ position: absolute;
+top:400px;
+left: 850px;
+font-size: 15px;
+height: 40px;
+ width: 350px;
+background-color: #1C1C1C;
+border-radius: 20px;
+border-style: solid;
+color: #D7D7d7;
+font-style: normal;
+}
+
+.text4{
+position: absolute;
+color: #E75F00;
+font-size:50px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+top: 1600px;
+left: 100px;
+}
+.text5{
+    position: absolute;
+    color: #a6a6a6;
+    font-size:50px;
+    font-family: 'Roboto Mono', monospace;
+
+    top: 1700px;
+    left: 100px;
+
+}
+.text6{
+    position: absolute;
+    color: #a6a6a6;
+    font-size:50px;
+    font-family: 'Roboto Mono', monospace;
+    top: 1850px;
+    left: 100px;
+}
+
+.contact-button{
+    position: absolute;
+    color: white;
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 1950px;
+    left: 100px;
+    background-color: #E75F00;
+    border-radius: 40px;
+    border-style: solid;
+    height: 55px;
+    width: 200px;
+}
+.Learn-button{
+    position: absolute;
+    color: white;
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 1950px;
+    left: 400px;
+    background-color: #E75F00;
+    border-radius: 40px;
+    border-style: solid;
+    height: 55px;
+    width: 200px;
+}
+.circle{
+    position: absolute;
+    top: 1550px;
+    left: 900px;
+}
+.html5{
+    position: absolute;
+    top: 1510px;
+    left: 1100px;
+    animation-name: animate1;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 5s;
+    
+
+}
+.css{
+    position: absolute;
+    top: 1730px;
+    left: 1320px;
+    animation-name: animate2;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 5s;
+    
+}
+.javascript{
+    position: absolute;
+    top: 1950px;
+    left: 1200px;
+    animation-name: animate3;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 5s;
+    
+}
+.react{
+    position: absolute;
+    top: 1950px;
+    left: 980px;
+    animation-name: animate4;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 5s;
+    
+
+}
+
+.typescript{
+    position: absolute;
+    top: 1750px;
+    left: 850px;
+    animation-name: animate5;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-delay: 5s;
+    
+
+}
+
+
+.list:hover{
+
+    color: red;
+}
+.join-button:hover{
+
+    cursor: pointer;
+}
+
+.icons:hover{
+    cursor: pointer;
+    animation: backwards;
+    
+}
+
+
+@keyframes animate1 {
+    from{
+        position: relative;
+        top: 1000px;
+     left: 1100px;   
+    }
+    to{
+        position: relative;
+       top:1320px;
+        right: 900px;
+    }
+}
+
+@keyframes animate2  {
+    
+    from{
+        position: relative;
+        top: 1000px;
+     left: 1100px;   
+    }
+    to{
+        position: relative;
+       top:1470px;
+        right: 900px;
+    }
+}
+
+@keyframes animate3  {
+    from{
+        position: relative;
+        top: 1000px;
+     left: 1100px;   
+    }
+    to{
+        position: relative;
+       top:1520px;
+        right: 900px;
+    }
+    
+}
+
+@keyframes animate4  {
+    from{
+        position: relative;
+        top: 1000px;
+     left: 1100px;   
+    }
+    to{
+        position: relative;
+       top:1610px;
+        right: 900px;
+    }
+    
+}
+@keyframes animate5  {
+    from{
+        position: relative;
+        top: 1000px;
+     left: 1100px;   
+    }
+    to{
+        position: relative;
+       top:1150px;
+        right: 900px;
+    }
+}
+
+.contact-button:hover{
+
+cursor: pointer;
+}
